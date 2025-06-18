@@ -1,0 +1,8 @@
+2025-02-05 12:37:47,359 - INFO - Iniciando la aplicación en el puerto 8080.
+2025-02-05 12:37:47,376 - WARNING -  * Debugger is active!
+2025-02-05 12:37:47,379 - INFO -  * Debugger PIN: 211-859-627
+2025-02-05 12:37:49,978 - INFO - Iniciando procesamiento de audios en: audios/05_02_2025
+2025-02-05 12:37:50,263 - INFO - Archivos encontrados en audios/05_02_2025:[{'ruta_archivo': 'gs://speech_s2s_bucket/audios/05_02_2025/20250112_110549_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE088_113651_986585843.mp3', 'nombre_archivo': 'audios/05_02_2025/20250112_110549_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE088_113651_986585843.mp3'}]
+2025-02-05 12:37:50,271 - INFO - Procesando audio 1/1: gs://speech_s2s_bucket/audios/05_02_2025/20250112_110549_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE088_113651_986585843.mp3
+2025-02-05 12:38:05,447 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 12:38:05,447 - INFO - 127.0.0.1 - - [05/Feb/2025 12:38:05] "POST /procesar_audios HTTP/1.1" 200 -

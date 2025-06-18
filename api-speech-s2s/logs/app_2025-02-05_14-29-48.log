@@ -1,0 +1,29 @@
+2025-02-05 14:29:54,891 - INFO - Iniciando la aplicación en el puerto 8080.
+2025-02-05 14:30:05,633 - WARNING -  * Debugger is active!
+2025-02-05 14:30:05,638 - INFO -  * Debugger PIN: 938-438-778
+2025-02-05 14:30:30,804 - INFO - Iniciando procesamiento de audios en: audios/05_02_2025
+2025-02-05 14:30:31,128 - INFO - Archivos encontrados en audios/05_02_2025
+2025-02-05 14:30:31,130 - INFO - Procesando audio 1/10: gs://speech_s2s_bucket/audios/05_02_2025/20250112_110549_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE088_113651_986585843.mp3
+2025-02-05 14:30:47,655 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:30:47,656 - INFO - Procesando audio 2/10: gs://speech_s2s_bucket/audios/05_02_2025/20250112_135017_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE640_113651_946465837.mp3
+2025-02-05 14:31:03,281 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:31:03,282 - INFO - Procesando audio 3/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_094439_Skill_V02_RipleyB_Prestamos_0549037D6D4AF774_113547_999556238.mp3
+2025-02-05 14:31:19,378 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:31:19,379 - INFO - Procesando audio 4/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_101540_Skill_V02_RipleyB_Prestamos_0549037D6D4AF9CA_111108_942061197.mp3
+2025-02-05 14:31:37,541 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:31:37,542 - INFO - Procesando audio 5/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_102537_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AFA8F_111108_970765135.mp3
+2025-02-05 14:31:53,331 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:31:53,332 - INFO - Procesando audio 6/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_110010_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AFD53_113628_945991892.mp3
+2025-02-05 14:32:08,132 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:32:08,133 - INFO - Procesando audio 7/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_113450_Skill_V02_RipleyB_Prestamos_0549037D6D4B0018_105124_986672116.mp3
+2025-02-05 14:32:23,859 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:32:23,859 - INFO - Procesando audio 8/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_115942_Skill_V02_RipleyB_Prestamos_0549037D6D4B0229_111792_991690159.mp3
+2025-02-05 14:32:38,482 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:32:38,482 - INFO - Procesando audio 9/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_152728_Skill_V02_RipleyB_Prestamos_0549037D6D4B0F8D_111792_994701569.mp3
+2025-02-05 14:32:56,759 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:32:56,760 - INFO - Procesando audio 10/10: gs://speech_s2s_bucket/audios/05_02_2025/20250113_164227_Skill_V02_RipleyB_PrestamosNS_0549037D6D4B14CA_103802_955898015.mp3
+2025-02-05 14:33:13,099 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 14:33:13,099 - ERROR - No hay datos válidos para subir a BigQuery. La lista está vacía.
+2025-02-05 14:33:13,541 - INFO - Error registrado en BigQuery: No hay datos válidos para subir a BigQuery. La lista está vacía.
+2025-02-05 14:33:13,542 - INFO - 127.0.0.1 - - [05/Feb/2025 14:33:13] "POST /procesar_audios HTTP/1.1" 200 -
+2025-02-05 14:34:43,477 - INFO -  * Detected change in 'C:\\Desarrollo\\Proyectos\\bcoripley\\api-speech-s2s\\app.py', reloading

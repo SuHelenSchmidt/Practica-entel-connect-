@@ -1,0 +1,9 @@
+2025-02-05 12:35:20,203 - INFO - Iniciando la aplicación en el puerto 8080.
+2025-02-05 12:35:20,226 - WARNING -  * Debugger is active!
+2025-02-05 12:35:20,230 - INFO -  * Debugger PIN: 211-859-627
+2025-02-05 12:35:24,823 - INFO - Iniciando procesamiento de audios en: audios/05_02_2025
+2025-02-05 12:35:25,146 - INFO - Archivos encontrados en audios/05_02_2025:[{'ruta_archivo': 'gs://speech_s2s_bucket/audios/05_02_2025/20250112_110549_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE088_113651_986585843.mp3', 'nombre_archivo': 'audios/05_02_2025/20250112_110549_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE088_113651_986585843.mp3'}]
+2025-02-05 12:35:25,159 - INFO - Procesando audio 1/1: gs://speech_s2s_bucket/audios/05_02_2025/20250112_110549_Skill_V02_RipleyB_PrestamosNS_0549037D6D4AE088_113651_986585843.mp3
+2025-02-05 12:35:41,011 - INFO - Datos cargados exitosamente a BigQuery.
+2025-02-05 12:35:41,013 - INFO - 127.0.0.1 - - [05/Feb/2025 12:35:41] "POST /procesar_audios HTTP/1.1" 200 -
+2025-02-05 12:36:57,863 - INFO -  * Detected change in 'C:\\Users\\Practicante\\dev\\api-speech-s2s\\modules\\logger_config.py', reloading

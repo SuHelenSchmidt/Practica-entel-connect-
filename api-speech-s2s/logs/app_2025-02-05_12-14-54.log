@@ -1,0 +1,7 @@
+2025-02-05 12:14:56,417 - INFO - Iniciando la aplicación en el puerto 8080.
+2025-02-05 12:14:56,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://87.216.1.57:8080
+2025-02-05 12:14:56,446 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-05 12:14:56,447 - INFO -  * Restarting with stat

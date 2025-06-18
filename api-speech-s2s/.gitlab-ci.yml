@@ -1,0 +1,21 @@
+image: docker:latest
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  image: google/cloud-sdk:latest
+  services:
+    - docker:dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_TLS_CERTDIR: ""
+  script:
+    - echo $GCP_SERVICE_KEY > gcloud-service-key.json
+    - gcloud auth activate-service-account --key-file=gcloud-service-key.json
+    - gcloud config set project $GCP_PROJECT_ID
+    - gcloud builds submit --gcs-log-dir=gs://speech_s2s_bucket/logs --tag gcr.io/$GCP_PROJECT_ID/api-speech-s2s
+    - gcloud run deploy api-speech-s2s --image gcr.io/$GCP_PROJECT_ID/api-speech-s2s --platform managed --region us-central1 --allow-unauthenticated --update-env-vars GOOGLE_APPLICATION_CREDENTIALS="/app/credential/speech-s2s-927193d16d57.json"
+  only:
+    - main

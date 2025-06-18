@@ -1,0 +1,15 @@
+//login a google cloud
+gcloud auth login
+
+//setea el proyecto
+gcloud config set project speech-s2s
+
+//activar los servicios para subir el api
+gcloud services enable cloudbuild.googleapis.com run.googleapis.com
+
+//compilar el codigo dentro del contenedor
+gcloud builds submit --tag gcr.io/speech-s2s/my-flask-api
+
+//Subir el contenedor a cloud run
+gcloud run deploy my-flask-api --image gcr.io/speech-s2s/my-flask-api --platform managed --region us-central1 --allow-unauthenticated --update-env-vars GOOGLE_APPLICATION_CREDENTIALS="/app/credential/speech-s2s-927193d16d57.json"
+
